@@ -1,0 +1,28 @@
+{
+  "name": "trianglepairtracker",
+  "version": "1.0.0",
+  "description": "application that will look for triangle pairs inside some router",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node-dev src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/pino": "^7.0.5",
+    "dotenv": "^16.0.3",
+    "mongodb": "^5.5.0",
+    "nodemon": "^2.0.22",
+    "nodets": "^0.0.1",
+    "pino": "^8.14.1",
+    "pino-pretty": "^10.0.0",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.0.4",
+    "viem": "^0.3.31",
+    "web3": "^1.10.0",
+    "web3-eth-contract": "^1.10.0"
+  }
+}
